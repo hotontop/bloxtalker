@@ -84,7 +84,7 @@ Bu projeye katkıda bulunmak isterseniz, lütfen aşağıdaki adımları izleyin
 
 ## Lisans
 
-Copyright (c) 2024 HotOnTop
+Copyright (c) 2024 HotOnTop, CloudFlare
 
 İzin verilmiştir, bu lisans altında belirtilen koşullar çerçevesinde, bu yazılım ve belgeleri (bundan böyle "Yazılım" olarak anılacaktır) kullanma, kopyalama, değiştirme, birleştirme, yayınlama, dağıtma, alt lisans verme ve satma hakkına sahip olursunuz.
 
