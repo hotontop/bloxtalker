@@ -7,90 +7,47 @@
 }
 
 body {
-  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FA1TLQFjrajmUM%2Fgiphy.gif&f=1&nofb=1&ipt=304dd9c78f068c112c24b0e84e3b28afe688a3b44aad5aace967ddcb995277ad&ipo=images");
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FA1TLQFjrajmUM%2Fgiphy.gif&f=1&nofb=1&ipt=304dd9c78f068c112c24b0e84e3b28afe688a3b24b0e84e3b28afe688a3b44aad5aace967ddcb905277ad&ipo=images");
   background-size: cover;
   background-position: center;
-}
-
-/* Header */
-header {
-  background-color: #007bff;
-  color: #fff;
-  padding: 50px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Navigation */
-nav {
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  padding: 10px 0;
-}
-
-.nav-links {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
-
-.nav-links li {
-  margin: 0 20px;
-}
-
-.nav-links a {
-  color: #333;
-  text-decoration: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-}
-
-.nav-links a:hover {
-  background-color: #f5f5f5;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: #fff; /* Tüm metinleri beyaz yaparak GIF üzerinde daha iyi görünmesini sağlar */
 }
 
 /* Section Styles */
 section {
   padding: 50px 0;
+  text-align: center;
 }
 
-.features, .installation, .usage, .requirements, .contributing, .license {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .feature-box, .installation-step, .usage-step, .requirement, .contribution-step {
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 30%;
-  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Şeffaf beyaz arka plan */
+  border: 1px solid #fff;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
 }
 
-.pink-box {
-  background-color: #ff69b4;
-  color: #fff;
-  text-align: center;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+.feature-box:hover, .installation-step:hover, .usage-step:hover, .requirement:hover, .contribution-step:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Özellik kutularına ışıma efekti ekleme (daha az kullanılmış) */
+.feature-box {
+  /* Burada daha az belirgin bir ışıma efekti ekleyebilirsiniz */
+  box-shadow: 0 0 5px rgba(255, 105, 180, 0.2);
 }
 
 /* Footer */
 footer {
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.7); /* Şeffaf siyah arka plan */
   color: #fff;
-  text-align: center;
   padding: 20px;
 }
